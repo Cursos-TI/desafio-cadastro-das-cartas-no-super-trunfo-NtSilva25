@@ -25,8 +25,8 @@ int main() {
     char cidade1[20]; 
     char estado; 
     char estado1; 
-    char cod_carta[10]; 
-    char cod_carta1[10]; 
+    char cod_carta[3]; 
+    char cod_carta1[3]; 
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -35,10 +35,10 @@ int main() {
     printf("Digite os Dados Necessarios para a Criação da Primeira Carta\n");
 
     printf("Digite o Estado Escolhido: ");
-    scanf("%s", &estado);
+    scanf("%c", &estado);
    
     printf("Digite a Cidade Escolhida: ");
-    scanf("%s", &cidade);
+    scanf("%s", cidade);
     
     printf("Digite o Código da Carta (Letra incial da cidade seguida de um numero de 01 a 04): ");
     scanf("%s", &cod_carta);
@@ -64,10 +64,10 @@ int main() {
     printf("\n");
 
     printf("Digite o Estado Escolhido: ");
-    scanf("%s", &estado1);
+    scanf("%c", &estado1);
    
     printf("Digite a Cidade Escolhida: ");
-    scanf("%s", &cidade1);
+    scanf("%s", cidade1);
     
     printf("Digite o Código da Carta (Letra incial da cidade seguida de um numero de 01 a 04): \n");
     scanf("%s", &cod_carta1);
