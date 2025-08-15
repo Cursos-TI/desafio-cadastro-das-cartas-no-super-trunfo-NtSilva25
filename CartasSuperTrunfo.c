@@ -152,10 +152,10 @@ int main() {
     printf("Área: %.2f Km² \n", area);
     printf("PIB: %.2f bilhões de reais\n", pib);
     printf("Número de Pontos Turísticos: %d \n", qnt_pontos_turisticos);
-    printf("Densidad populacional: %.2f hab/km² \n", dense_populacional);
+    printf("Densidade populacional: %.2f hab/km² \n", dense_populacional);
     printf("PIB per Capta: %.2f reais \n", pib_percapita);
     printf("Super Poder: %.2f \n", super_poder);
-    printf("Inverso densidade Populacional: %.2f\n", inverso_dense_populacional);
+    //printf("Inverso densidade Populacional: %.2f\n", inverso_dense_populacional);
 
     printf("\n"); /*pular uma linha entre a apresentação dos dados da cat 01 e 02*/
 
@@ -176,7 +176,7 @@ int main() {
     printf("Densidade populacional: %.2f hab/km² \n", dense_populacional1);
     printf("PIB per Capta: %.2f reais \n", pib_percapita1);
     printf("Super Poder: %.2f \n", super_poder1);
-    printf("Inverso densidade populacinonal: %.2f\n", inverso_dense_populacional1);
+    //printf("Inverso densidade populacinonal: %.2f\n", inverso_dense_populacional1);
 
 
     printf("\n");
@@ -185,7 +185,7 @@ int main() {
     printf("População: Carta 01 (%d), carta 02 (%d) \n", comparacao_populacao, comparacao_populacao1);
     printf("Área: Carta 01 (%d), Carta 02 (%d) \n", comparacao_area, comparacao_area1);
     printf("PIB:Carta 01 (%d), carta 02 (%d) \n", comparacao_pib, comparacao_pib1);
-    printf("Pontos Turístics: Carta 01 (%d), Carta 02 (%d) \n", comparacao_pontos_turisticos, comparacao_pontos_turisticos1);
+    printf("Pontos Turísticos: Carta 01 (%d), Carta 02 (%d) \n", comparacao_pontos_turisticos, comparacao_pontos_turisticos1);
     printf("Densidade Populacional: Carta 01 (%d), Carta 02 (%d) \n", comparacao_densidade_populacional, comparacao_densidade_populacional1);
     printf("PIB per Capita: Carta 01 (%d), Carta 02 (%d) \n", comparacao_pib_per_capta, comparacao_pib_per_capta1);
     printf("Super Poder: Carta 01 (%d), Carta 02 (%d) \n", comparacao_super_poder, comparacao_super_poder1);   
